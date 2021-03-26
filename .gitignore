@@ -1,2 +1,4 @@
 node_modules
 *.vsix
+test/
+themes/ayu-owl-color-theme.json

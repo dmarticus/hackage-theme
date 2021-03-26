@@ -214,7 +214,6 @@
     {
       "scope": [
         "constant",
-        "keyword.operator.infix.tight.at",
         "variable.other.member",
         "meta.record punctuation.brace",
         "keyword.operator.lambda",
@@ -249,14 +248,31 @@
         "meta.quasi-quotation",
       ],
       "settings": {
-        "foreground": "#ccc370"
+        "foreground": "#073642"
       }
     },
     // Keywords
     {
       "scope": [
         "keyword",
-        "modifier"
+        "modifier",
+        "keyword.operator.bind",
+        "punctuation.separator.key-value.html",
+        "meta.tag",
+        "keyword.control",
+        "keyword.operator",
+        "constant.other.color",
+        "punctuation.definition.constant",
+        "meta.function.block.start.handlebars",
+        "meta.function.inline.other",
+        "meta.property-value",
+        "support.constant.mathematical-symbols",
+        "support.constant.vendored.property-value",
+        "punctuation.definition.keyword",
+        "punctuation.accessor",
+        "keyword.operator.promotion",
+        "keyword.operator.function.infix",
+        "punctuation.separator.property"
       ],
       "settings": {
         "foreground": "#d33682"
@@ -344,29 +360,45 @@
         "fontStyle": "underline"
       }
     },
+    {
+      "name": "Entity Types",
+      "scope": [
+        "support.type",
+        "support.class.console",
+        "keyword.other.debugger",
+        "entity.other.inherited-class",
+        "meta.property-name",
+        "punctuation.definition.raw.markdown"
+      ],
+      "settings": {
+        "foreground": "#073642"
+      }
+    },
     // Types
     {
       "scope": [
-        "storage.type",
-        "support.type",
-        "entity.name.type",
-        "keyword.type"
+        "variable.parameter",
+        "text.html",
+        "punctuation.section.property-list",
+        "meta.property-value.scss punctuation",
+        "meta.property-list",
+        "keyword.operator.type.annotation"
       ],
       "settings": {
         "foreground": "#5f5faf"
       }
     },
     // Variables
-    {
-      "scope": [
-        "variable",
-        "support.variable",
-        "meta.definition.variable"
-      ],
-      "settings": {
-        "foreground": "#5f5faf"
-      }
-    },
+    // {
+    //   "scope": [
+    //     "variable",
+    //     "support.variable",
+    //     "meta.definition.variable"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#5f5faf"
+    //   }
+    // },
     {
       "scope": [
         "variable.language",
@@ -392,11 +424,9 @@
         "meta.other.unknown",
         "punctuation.backtick",
         "punctuation.decorator",
-        "keyword.operator.promotion",
-        "keyword.operator.function.infix"
       ],
       "settings": {
-        "foreground": "#859900"
+        "foreground": "#073642"
       }
     },
     {
@@ -417,17 +447,18 @@
       }
     },
     // Functions
-    {
-      "scope": [
-        "entity.name.function"
-      ],
-      "settings": {
-        "foreground": "#5f5faf"
-      }
-    },
+    // {
+    //   "scope": [
+    //     "entity.name.function"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#5f5faf"
+    //   }
+    // },
     {
       "scope": [
         "support.function",
+        "variable.function.constructor",
         "meta.function",
         "meta.function-call",
         "meta.definition.method"
