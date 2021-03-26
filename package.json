@@ -1,7 +1,7 @@
 {
-    "name": "hoogle-theme",
-    "displayName": "hoogle-theme",
-    "description": "Color theme that matches the source code displayed in Hoogle",
+    "name": "hackage-theme",
+    "displayName": "hackage-theme",
+    "description": "Color theme that matches the source code displayed in hackage",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.54.0"
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "hoogle-theme",
+                "label": "hackage-theme",
                 "uiTheme": "vs",
-                "path": "./themes/hoogle-theme-color-theme.json"
+                "path": "./themes/hackage-theme-color-theme.json"
             }
         ]
     }
