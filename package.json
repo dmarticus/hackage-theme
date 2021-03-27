@@ -1,9 +1,15 @@
 {
     "name": "hackage-theme",
     "displayName": "hackage-theme",
-    "description": "Color theme that matches the source code displayed in hackage",
+    "description": "Color theme that matches the source code from Hackage, the Haskell package respository.  It's mostly solarized light with some extra tweaks to match Hackage exactly.",
     "publisher": "dmarticus",
-    "version": "0.0.2",
+    "icon": "img/icon.png",
+    "version": "0.0.3",
+    "bugs": {
+      "url": "https://github.com/dmarticus/hackage-theme/issues",
+      "email": "dmarticus@gmail.com"
+    },
+    "homepage": "https://github.com/dmarticus/hackage-theme/blob/main/README.md",
     "license": "MIT",
     "repository": {
         "type": "git",
