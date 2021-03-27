@@ -3,11 +3,11 @@
     "displayName": "hackage-theme",
     "description": "Color theme that matches the source code displayed in hackage",
     "publisher": "dmarticus",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "license": "MIT",
     "repository": {
-    	"type": "git",
-    	"url": "https://github.com/dmarticus/hackage-theme"
+        "type": "git",
+        "url": "https://github.com/dmarticus/hackage-theme"
     },
     "engines": {
         "vscode": "^1.54.0"
