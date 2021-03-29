@@ -540,7 +540,7 @@
       "name": "Markdown link",
       "scope": "string.other.link.title.markdown, constant.other.reference.link.markdown, string.other.link.description.markdown",
       "settings": {
-        "foreground":  "hsl(310, 75%, 67%)",
+        "foreground": "#d3869b",
         "fontStyle": "regular"
       }
     },
