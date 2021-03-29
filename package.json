@@ -20,7 +20,7 @@
             {
                 "label": "hackage-theme",
                 "uiTheme": "vs",
-                "path": "./themes/hackage-theme-color-theme.json"
+                "path": "./themes/hackage-theme-dark-color-theme.json"
             }
         ]
     }
