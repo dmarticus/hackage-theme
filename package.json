@@ -3,7 +3,7 @@
     "displayName": "hackage-theme",
     "description": "Color theme that matches the source code displayed in hackage",
     "publisher": "dmarticus",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -20,7 +20,7 @@
             {
                 "label": "hackage-theme",
                 "uiTheme": "vs",
-                "path": "./themes/hackage-theme-dark-color-theme.json"
+                "path": "./themes/hackage-theme-light-color-theme.json"
             }
         ]
     }
